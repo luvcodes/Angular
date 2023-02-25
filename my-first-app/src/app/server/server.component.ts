@@ -8,6 +8,8 @@ import { Component } from "@angular/core";
   selector: 'app-server', // any name but need to be an unique selector
   templateUrl: './server.component.html' // create a template
 })
+
+// export class is to put the class into public
 export class ServerComponent {
 
 }
