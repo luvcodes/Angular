@@ -6,4 +6,7 @@ Angular repository for learning pupose
 2. Then go to `src/app/app.module.ts` file, in the `@NgModule` component, we tell Angular there is this `bootstrap: [AppComponent]`
 3. Then Angular will go to the `src/app/app.component.ts` file, then it reads the setup we pass here, and therefore knows this `selector` app route, in this case `app-root`
 4. Then Angular will go to the `src/index.html` file, which means Angular will be able to handle the `app-root`, in this case, `<app-root></app-root>`. 
-5. Then here Angular will insert the AppComponent. And the AppComponent happens to have a template attached to it, which is the `src/app/app.component.html` file
+5. Then here Angular will insert the AppComponent. And the AppComponent happens to have a template attached to it, which is the `src/app/app.component.html` file   
+
+### Key concepts:
+app.module: **What is a app module?** Angular users components to build webpages and users modules to basically bundle different pieces for example, components of your app into packages. bundle of functionalities of our app and it basically gives angled information which features does my app have and use.
