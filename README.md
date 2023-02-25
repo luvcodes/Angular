@@ -26,6 +26,7 @@ Angular repository for learning pupose
 3. Go to `app.module.ts` file, include the new class - `ServersComponent` and also the import class for it
 4. Go to servers.component.html file, call the `<app-server></app-server>` for **twice**
 5. Go to `app.component.html` file, call the `<app-servers></app-servers>` for once
-**So in this case, the contents in the `server` html will be called `twice`, and pass to the `servers`. Then the `app component` html file will call the `servers`, so the page will display the `<p>The Server Component</p>` twice.**
+**So in this case, the contents in the `server` html will be called `twice`, and pass to the `servers`. Then the `app component` html file will call the `servers`, so the page will display the `<p>The Server Component</p>` twice.**   
+
 ### Key concepts:
 **What is a app module?** .A bundle of functionalities of our app and it basically gives angled information which features does my app have and use.
