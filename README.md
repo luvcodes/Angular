@@ -18,5 +18,14 @@ Angular repository for learning pupose
    1. under the declarations section, add the `ServerComponent`, which is the class name in the `server.component.ts` file
    2. import the ServerComponent class
 5. Call the selector, which is `<app-server></app-server>` in the `app/app.component.html` file
+
+
+### Create the second component with command at once - `ServersComponent`
+1. Under the project folder, run command `ng generate component servers`, this will automatically create four essential files for the ServersComponent
+2. Delete the testing .ts file
+3. Go to `app.module.ts` file, include the new class - `ServersComponent` and also the import class for it
+4. Go to servers.component.html file, call the `<app-server></app-server>` for **twice**
+5. Go to `app.component.html` file, call the `<app-servers></app-servers>` for once
+**So in this case, the contents in the `server` html will be called `twice`, and pass to the `servers`. Then the `app component` html file will call the `servers`, so the page will display the `<p>The Server Component</p>` twice.**
 ### Key concepts:
 **What is a app module?** .A bundle of functionalities of our app and it basically gives angled information which features does my app have and use.
