@@ -35,4 +35,9 @@ Angular repository for learning pupose
 
 **What is a app module?** A bundle of functionalities of our app and it basically gives angled information which features does my app have and use.
 
-**Selectors:** selectors can select by element(common method), also can select attributes (attribute selector), and can select by class.
+**Selectors:** selectors can select by 
+
+   1. element(common method)
+   2. attributes (attribute selector)
+   3. class
+
