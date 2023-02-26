@@ -42,3 +42,8 @@ Angular repository for learning pupose
    2. attributes (attribute selector)
    3. class
 
+**Intterpolation strings**
+
+**Data binding**
+
+**Directives**
