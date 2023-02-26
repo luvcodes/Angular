@@ -5,12 +5,7 @@ import { Component } from '@angular/core';
   // selector: '[app-servers]' // this is select by attribute
   // selector: '.app-servers' // this is select by class
   templateUrl: './app.component.html',
-  // styleUrls: ['./app.component.css'],
-  styles: [`
-    h3 {
-      color: dodgerblue;
-    }
-  `]
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'my-first-app';

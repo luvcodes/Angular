@@ -11,5 +11,11 @@ import { Component } from "@angular/core";
 
 // export class is to put the class into public
 export class ServerComponent {
+  // this is for data binding
+  serverId: number = 10;
+  serverStatus: string = 'offline';
 
+  getServerStatus() {
+    return this.serverStatus;
+  }
 }

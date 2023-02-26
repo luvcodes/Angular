@@ -1,7 +1,7 @@
 # Angular
 Angular repository for learning pupose
 
-### Angular operation steps: 
+### Angular operation steps:
 
 1. Start with the `src/main.ts` file, we bootstrap an Angular application, and we pass this module as an argument -> `platformBrowserDynamic().bootstrapModule(AppModule)`
 2. Then go to `src/app/app.module.ts` file, in the `@NgModule` component, we tell Angular there is this `bootstrap: [AppComponent]`
@@ -35,8 +35,9 @@ Angular repository for learning pupose
 
 **What is a app module?** A bundle of functionalities of our app and it basically gives angled information which features does my app have and use.
 
-**Selectors:** selectors can select by 
-
+**Selectors:** 
+   **Selectors have to be unique for each component**
+   #### selectors can select by 
    1. element(common method)
    2. attributes (attribute selector)
    3. class
