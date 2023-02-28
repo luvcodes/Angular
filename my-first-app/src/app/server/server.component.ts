@@ -6,7 +6,12 @@ import { Component } from "@angular/core";
 @Component({
   // to tell angular what to do with this class
   selector: 'app-server', // any name but need to be an unique selector
-  templateUrl: './server.component.html' // create a template
+  templateUrl: './server.component.html', // create a template
+  styles: [`
+  .online {
+    color: white;
+    }
+  `]
 })
 
 // export class is to put the class into public
@@ -15,7 +20,15 @@ export class ServerComponent {
   serverId: number = 10;
   serverStatus: string = 'offline';
 
+  constructor() {
+    this.serverStatus = Math.random() > 0.5 ? 'online' : 'offline';
+  }
+
   getServerStatus() {
     return this.serverStatus;
+  }
+
+  getColor() {
+    return this.serverStatus === 'online' ? 'green' : 'red';
   }
 }

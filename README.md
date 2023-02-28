@@ -48,4 +48,4 @@ Angular repository for learning pupose
 
 **Directives**
 
-**ngIf**
+**ngIf syntax**
